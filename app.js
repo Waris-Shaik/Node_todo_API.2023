@@ -32,7 +32,7 @@ app.use('/api/v1/tasks',taskRouter.router);
 
 
 // error middleware
-app.use(errorMiddleware)
+app.use(errorMiddleware);
 
 
 module.exports = app;
