@@ -30,7 +30,7 @@ exports.register = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-
+  
 }
 
 exports.getAllUsers = async (req, res, next) => {
